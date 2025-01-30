@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Trello | 54U Enhancements
 // @namespace    https://54u.se/
-// @version      0.0.1
+// @version      0.1.1
 // @description  Useful enhancements to Trello
-// @author       Johnny S. Olsson (54u.se)
+// @author       Johnny Olsson (54u.se)
 // @match        https://trello.com/b/*
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=trello.com
@@ -142,7 +142,5 @@
 
   $(action_fn);                // Once on document ready
   $('html').hover(action_fn);  // Again on hover in case the page transitions
-
-
 
 })(jQuery.noConflict());
